@@ -1,0 +1,7 @@
+module/build
+module/bin
+module/lib
+module/gen
+__pycache__
+
+module/__init__.py
