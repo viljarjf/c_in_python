@@ -7,5 +7,5 @@ Currently only tested with WSL.
 
 Also currently needs the full path to `module/lib` to be added to `$LD_LIBRARY_PATH`. I'll hopefully find a fix or workaround. `LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/your/project/directory/module/lib`
 
-Put the stuff you want exposed in `model/declarations.h`, and their implementations in `model/definitions.h`.
+Put declarations of the stuff you want exposed in `module/declarations.h`, and their implementations in `module/definitions.h`.
 Remember to update the cmakelists file if more sourcefiles are added.
